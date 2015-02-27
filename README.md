@@ -20,9 +20,15 @@ Setting Up Your Environment
 
 I'm not gonna go through setting up an IDE like Eclipse, NetBeans or whatever. It may boost your productivity in the future, but you're a Perl hacker so you likely already have a favorite text editor. Stick to it :)
 
-On Windows? Install the [Scala 2.10.3 MSI] and move to the next session.
+### On Windows? 
 
-On Linux or Mac OS X? Read on:
+Install the [Scala 2.10.3 MSI] and move to the next session.
+
+### On Ubuntu?
+
+    $ sudo apt-get install scala
+
+### On Linux or Mac OS X?
 
   1. Download the [Scala 2.10.3 tgz] and unpack it. Find "bin/scala" under the unpacked directory and run it. If you see a "scala>" prompt, yay! Now type ":q" (without the quotes) to quit that terminal and move to the next session. Got some weird Java error? Read on:
 
